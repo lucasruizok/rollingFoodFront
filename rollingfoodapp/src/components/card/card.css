@@ -1,0 +1,43 @@
+.img-card{
+    object-fit: cover;
+    max-height: 15em;
+    max-width: 14em;
+    border-radius: 50%;
+    
+}
+.img-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card-body-rolling{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+.price{
+    font-size: 2em;
+}
+.card{
+    font-family:Arial, Helvetica, sans-serif ;
+    animation: backInLeft;
+    animation-duration: 1.5s; 
+}
+.title{
+    font-size: 3em;
+}
+.description{
+    font-size: 1.5em;
+}
+@media (max-width: 576px){
+    .title{
+        font-size: 1.5em;
+    }
+    .description{
+        font-size: 1em;
+    }
+    .price{
+        font-size: 1.3em;
+    }
+}

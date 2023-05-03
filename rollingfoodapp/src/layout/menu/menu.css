@@ -1,0 +1,13 @@
+h1.title {
+  text-align: center;
+  text-shadow: 2px 2px 2px white;
+  margin-top: 1rem;
+}
+
+h1.title:hover {
+  background-color: rgb(242, 59, 59);
+}
+
+.row {
+  text-align: center;
+}

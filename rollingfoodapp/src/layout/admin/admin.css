@@ -1,0 +1,33 @@
+.trigger {
+    padding: 0 24px;
+    font-size: 18px;
+    line-height: 64px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  .trigger:hover {
+    color: #1890ff;
+  }
+  .ant-layout-sider-children{
+    background-color: #666;
+  }
+  .ant-list-split .ant-list-item:last-child:hover{
+    background-color:#b92e0c;
+  }
+  .sideBarItem{
+    color: #fff;
+  }
+  .ant-list-item-meta-title{
+    color: #fff;
+  }
+  .siderAdmin{
+    min-height: calc(100vh - 188px);
+  }
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+input[type=number] { -moz-appearance:textfield; }

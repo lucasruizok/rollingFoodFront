@@ -1,0 +1,21 @@
+.container {
+    width: auto;
+    height: 50vh;
+    display: flex;
+}
+
+.img-container {
+    width: 50%;
+    height: 100%;
+}
+
+.form-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+}
+
+Form {
+    width: 100%;
+}

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans&family=Oswald&display=swap');
+
+ul li {
+    list-style: none;
+}
+ul{
+    padding: 0cm;
+}
+.footerR{
+    background-color: #666;
+    color: #faebd7;
+    font-family: 'Oswald', sans-serif;
+}
+.ant-layout-footer{
+    padding: 0cm;
+}
+.svgFooter{
+    height: 50px;
+    
+}
+a{
+    color: #faebd7;
+}
+a:hover{
+    color: #000000;
+}
