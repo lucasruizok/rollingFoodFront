@@ -3,8 +3,9 @@ import { Navigate } from 'react-router-dom'
 import { DataContext } from '../context/DataContext';
 
 export const PrivateRoutes = ({ children }) => {
-    const {user} = useContext(DataContext);
+    // const {user} = useContext(DataContext);
+  const user = {}
   return (
-        user.role === 'admin' ? children : <Navigate to='login' replace/>
+        user ? children : <Navigate to='login' replace/>
   )
 }

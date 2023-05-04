@@ -18,9 +18,9 @@ export const AdminOrders = () => {
     orders.forEach((order) => setPizzasOrders(order.producto));
   }
 
-  useEffect(() => {
-    getOrders();
-  }, [])
+  // useEffect(() => {
+  //   getOrders();
+  // }, [])
 
   const expandedRowRender = () => {
     const columns = [

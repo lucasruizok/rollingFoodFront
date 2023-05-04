@@ -78,11 +78,22 @@ export const AdminProducts = () => {
     setPizzas(newPizzas);
   }
 
+  const dataTable = [
+    {
+      image: 1,
+      pizza: 'muzza',
+      category: 'tradicionales',
+      detail: 'muzza con cebolla y salsa',
+      price: 150,
+      discount: 20,
+      state: true,
+    }
+  ]
   return (
     <>
       <h1 className='text-center p-0 m-0'>ADMINISTRADOR DE PRODUCTOS</h1>
       <ModalAddProduct />
-      <Table columns={columns} dataSource={pizzas} />
+      <Table columns={columns} dataSource={dataTable} />
     </>
   )
 }
